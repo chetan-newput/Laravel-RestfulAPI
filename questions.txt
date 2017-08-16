@@ -1,0 +1,6 @@
+1] I'm not added `protected $table = 'users';` in my Users Model file, instead of this my databse seed is working properly, not shoing error for ` 'homestead.seller' dosent exist `
+
+Can you explain me why it is happend? as in course chapter "Executing The Migrations and Seeder using Artisan from laravel [Section 10, Lecture 49]" 
+
+
+2] In BuyerSellerController you get unique seller by calling `->unique('id')` and in CategorySellerController you just call `->unique()` , why and what is the diffrent in both calling?
